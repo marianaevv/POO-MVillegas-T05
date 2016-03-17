@@ -13,18 +13,12 @@ public class BecasProf extends Becas {
     public String escprocedencia;
     public String credito;
     
-     public BecasProf(String nombre, int promedio, int puntaje, String escprocedencia, String credito) {
+     public BecasProf(String nombre, int promedio, int puntaje) {
         super(nombre, promedio, puntaje);
         
            }
-     
-     public void setEscuela (String escprocedencia){
-         this.escprocedencia= escprocedencia;
-     } 
-     public String getEscuela (){
-         return this.escprocedencia;
-     }
-     public void setCredito (String credito){
+       
+        public void setCredito (String credito){
          this.credito = credito;
      }
      public String getCredito (){

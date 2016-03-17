@@ -15,8 +15,7 @@ public abstract class Becas implements iBecas {
     private int puntaje;
         
     public Becas (String nombre, int promedio, int puntaje){
-        this.nombre = nombre;
-    }
+            }
     public void setNombre (String nombre){
         this.nombre = nombre;
     }

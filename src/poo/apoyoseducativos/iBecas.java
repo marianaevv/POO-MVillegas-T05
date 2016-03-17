@@ -10,7 +10,7 @@ package poo.apoyoseducativos;
  * @author Mariana Villegas
  */
 public interface iBecas {
- 
+     
     public String getAdmision ();
     public String getEntregarDocumentacion ();
     public String getRealizarPago();  

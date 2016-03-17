@@ -14,6 +14,7 @@ public class BecasPrep extends Becas {
     
     public BecasPrep(String nombre, int promedio, int puntaje) {
         super(nombre, promedio, puntaje);
+        
     }
 
     

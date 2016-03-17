@@ -13,6 +13,7 @@ public class BecasPosgrado extends Becas {
     
     public BecasPosgrado(String nombre, int promedio, int puntaje) {
         super(nombre, promedio, puntaje);
+        
     }
     
     

@@ -23,9 +23,9 @@ public class POOApoyosEducativos {
         becadta.setNombre("DTA");
         becadta.setPromedio(90);
         becadta.setPuntaje(1400);
-        
-        
-        System.out.println(becadta.getNombre() +"\n" +becadta.getPromedio()+"\n"+becadta.getPuntaje());
+        becadta.setCredito("Tiene credito de acuerdo al puntaje de beca que se le proporcione");
+                
+        System.out.println(becadta.getNombre() +"\n" +becadta.getPromedio()+"\n"+becadta.getPuntaje()+ "\n"+ becadta.getCredito());
         System.out.println(becadta.getAdmision() +"\n" + becadta.getRealizarPago() + "\n" + becadta.getEntregarDocumentacion());
         
       
@@ -38,14 +38,16 @@ public class POOApoyosEducativos {
         System.out.println(becase.getNombre() +"\n"+becase.getPromedio() +"\n"+becase.getPuntaje());
         System.out.println(becase.getAdmision()+"\n" + becase.getRealizarPago() + "\n" + becase.getEntregarDocumentacion());
         
+        BecasProf becaldm = new BecasProf("",0,0);
+            
+            becaldm.setNombre("Lideres del Mañana");
+            becaldm.setPromedio(90);
+            becaldm.setPuntaje(1400);
+            becaldm.setCredito("No tiene credito, es 100% pura");
+            
+             System.out.println(becaldm.getNombre() +"\n"+becaldm.getPromedio() +"\n"+becaldm.getPuntaje()+ "\n"+ becaldm.getCredito());
+        System.out.println(becase.getAdmision()+"\n" + becase.getRealizarPago() + "\n" + becase.getEntregarDocumentacion());
+        }
+    
     }
-    
-    public static class BecasProf extends Becas {
-        
-        public BecasProf(String nombre, int promedio, int puntaje) {
-            super(nombre, promedio, puntaje);
-        }               
-    }
-    
-    
-}
+   
